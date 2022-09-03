@@ -9,13 +9,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 2rem;
   height: 100vh;
   background-color: #565656;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin: 40px 0;
+  text-align: center;
+  color: #fff;
 }
+
+#buttons-container {
+  width: 20%;
+  height: 0;
+  padding-bottom: 40%;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(256, 256, 256, .5);
+  border: 1px solid #000;
+}
+
 
 #container {
   position: relative;
@@ -39,13 +53,23 @@ h1 {
 }
 
 #my-range {
-  width: 80%;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.label {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#colorpicker {
+  width: 100%;
 }
 
 .reset-btn {
   font-size: 16px;
   font-weight: 700;
   padding: 1rem;
-  margin-top: 1em;
+  margin-top: 40px;
   border-radius: 10px;
 }
